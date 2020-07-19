@@ -1,8 +1,7 @@
 ﻿namespace SAP_HotelReservations.Models
 {
 	/// <summary>
-	/// DateRange's primary purpose is to provide convenient way of passing start-end day parameters,
-	/// and CheckIntersect method, which checks if two DateRanges overlap.
+	/// Structure that defines a range of days by providing StartDay and EndDay, represented by integer values.
 	/// </summary>
 	public struct DateRange
 	{
@@ -16,7 +15,7 @@
 		}
 		
 		/// <summary>
-		/// Checks if requested DateRange conflicts with DateRange already added to a Room
+		/// Checks if requested DateRange conflicts with another DateRange, by comparing their StartDay and EndDay values.
 		/// </summary>
 		/// <param name="second"> DateRange to be added </param>
 		/// <returns>

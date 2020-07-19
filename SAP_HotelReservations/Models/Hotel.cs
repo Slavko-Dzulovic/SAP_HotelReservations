@@ -4,7 +4,7 @@ using System.Linq;
 namespace SAP_HotelReservations.Models
 {
 	/// <summary>
-	/// Holds logic related to setting the number of Rooms in a hotel, and adding DataRanges to those rooms
+	/// Defines a class with info about Hotel.
 	/// </summary>
 	public class Hotel
 	{

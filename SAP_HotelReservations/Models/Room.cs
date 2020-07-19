@@ -34,8 +34,8 @@ namespace SAP_HotelReservations.Models
 		}
 		
 		/// <summary>
-		/// Adds days (represented through DateRange pair) to the list of reserved days,
-		/// and increases the number of registered days for the room that the DateRange is registered into
+		/// Adds requested days to the list of reserved days,
+		/// and increases the number of registered days for the room that the days are registered into
 		/// </summary>
 		/// <param name="range"> New date range to be inserted </param>
 		public void AddDateRange(DateRange range)
@@ -47,7 +47,7 @@ namespace SAP_HotelReservations.Models
 		/// <summary>
 		/// Check if there are overlaps between already added days and new range to be added
 		/// </summary>
-		/// <param name="range"> Date range that is being compared against the existing date ranges for overlap </param>
+		/// <param name="range"> Days that are being compared against the existing days for overlap </param>
 		/// <returns>
 		/// True, if there were overlaps
 		/// False, if there were no overlaps
