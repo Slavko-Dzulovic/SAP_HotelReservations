@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAP_HotelReservations", "SAP_HotelReservations\SAP_HotelReservations.csproj", "{83A1B918-B7DC-4219-A23F-67B83A92FEB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAP_HotelReservations.Test", "SAP_HotelReservations.Test\SAP_HotelReservations.Test.csproj", "{97F73E8F-ED51-4DEC-B860-812A726B3661}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83A1B918-B7DC-4219-A23F-67B83A92FEB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83A1B918-B7DC-4219-A23F-67B83A92FEB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83A1B918-B7DC-4219-A23F-67B83A92FEB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83A1B918-B7DC-4219-A23F-67B83A92FEB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97F73E8F-ED51-4DEC-B860-812A726B3661}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97F73E8F-ED51-4DEC-B860-812A726B3661}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97F73E8F-ED51-4DEC-B860-812A726B3661}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97F73E8F-ED51-4DEC-B860-812A726B3661}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
