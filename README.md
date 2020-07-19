@@ -9,6 +9,3 @@ Software developer task for SAP
 
 > The program is tested with various requested date ranges, using NUnit test library (see 
 [SAP_HotelReservations.Test](./SAP_HotelReservations.Test)).
-```
-
-
